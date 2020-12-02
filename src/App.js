@@ -55,6 +55,7 @@ class App extends Component {
         
         <TOC 
           onChangePage={function(id){
+      
             this.setState({
               mode: 'read',
               selected_content_id: Number(id)
